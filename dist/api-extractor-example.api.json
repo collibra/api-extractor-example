@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.0.17",
+    "schemaVersion": 1000
+  },
+  "kind": "Package",
+  "canonicalReference": "api-extractor-example",
+  "docComment": "",
+  "name": "api-extractor-example",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "",
+      "name": "",
+      "members": [
+        {
+          "kind": "Variable",
+          "canonicalReference": "ButtonWithDefault",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Reference",
+              "text": "ButtonWithDefault"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "React"
+            },
+            {
+              "kind": "Content",
+              "text": "."
+            },
+            {
+              "kind": "Reference",
+              "text": "FC"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            },
+            {
+              "kind": "Content",
+              "text": "= ({ "
+            },
+            {
+              "kind": "Reference",
+              "text": "children"
+            },
+            {
+              "kind": "Content",
+              "text": " }) => (\n  <"
+            },
+            {
+              "kind": "Reference",
+              "text": "button"
+            },
+            {
+              "kind": "Content",
+              "text": ">{"
+            },
+            {
+              "kind": "Reference",
+              "text": "children"
+            },
+            {
+              "kind": "Content",
+              "text": "}</"
+            },
+            {
+              "kind": "Reference",
+              "text": "button"
+            },
+            {
+              "kind": "Content",
+              "text": ">\n)"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ButtonWithDefault",
+          "variableTypeTokenRange": {
+            "startIndex": 2,
+            "endIndex": 6
+          }
+        }
+      ]
+    }
+  ]
+}

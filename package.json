@@ -1,0 +1,21 @@
+{
+  "name": "api-extractor-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -p .",
+    "extract-api": "npm run compile && npx api-extractor run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.3"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.0.17",
+    "@types/react": "^16.8.6",
+    "typescript": "^3.3.3333"
+  }
+}
