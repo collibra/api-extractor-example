@@ -1,2 +1,3 @@
 import { ButtonWithDefault } from "./components/ButtonWithDefault";
-export { ButtonWithDefault };
+import { ButtonWithStar } from "./components/ButtonWithStar";
+export { ButtonWithDefault, ButtonWithStar };

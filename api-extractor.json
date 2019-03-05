@@ -6,5 +6,10 @@
   },
   "project": {
     "entryPointSourceFile": "src/index.d.ts"
+  },
+  "dtsRollup": {
+    "mainDtsRollupPath": "typings/typings.d.ts",
+    "enabled": true,
+    "trimming": false
   }
 }

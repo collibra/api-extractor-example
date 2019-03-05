@@ -86,6 +86,79 @@
             "startIndex": 2,
             "endIndex": 6
           }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "ButtonWithStar",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Reference",
+              "text": "ButtonWithStar"
+            },
+            {
+              "kind": "Content",
+              "text": ": "
+            },
+            {
+              "kind": "Reference",
+              "text": "React"
+            },
+            {
+              "kind": "Content",
+              "text": "."
+            },
+            {
+              "kind": "Reference",
+              "text": "FC"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            },
+            {
+              "kind": "Content",
+              "text": "= ({ "
+            },
+            {
+              "kind": "Reference",
+              "text": "children"
+            },
+            {
+              "kind": "Content",
+              "text": " }) => (\n  <"
+            },
+            {
+              "kind": "Reference",
+              "text": "button"
+            },
+            {
+              "kind": "Content",
+              "text": ">{"
+            },
+            {
+              "kind": "Reference",
+              "text": "children"
+            },
+            {
+              "kind": "Content",
+              "text": "}</"
+            },
+            {
+              "kind": "Reference",
+              "text": "button"
+            },
+            {
+              "kind": "Content",
+              "text": ">\n)"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ButtonWithStar",
+          "variableTypeTokenRange": {
+            "startIndex": 2,
+            "endIndex": 6
+          }
         }
       ]
     }
