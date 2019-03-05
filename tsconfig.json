@@ -60,6 +60,7 @@
   "exclude": [
     "node_modules",
     "temp",
-    "etc"
+    "etc",
+    "dist"
   ]
 }
